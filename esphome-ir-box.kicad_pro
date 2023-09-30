@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 1.0,
+          "height": 1.8,
+          "width": 1.8
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -56,14 +56,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "courtyards_overlap|134352001|67354001|0ea1ed47-fcf8-44d7-b349-73431f8f3422|122faa04-d60c-465f-b3e0-7d3f0e1fc97f",
-        "courtyards_overlap|134352001|67354001|122faa04-d60c-465f-b3e0-7d3f0e1fc97f|0ea1ed47-fcf8-44d7-b349-73431f8f3422",
-        "courtyards_overlap|157262001|67414001|829d55d4-5626-4aa1-8ec2-a1ca5c693ca8|9ff0fd2f-be08-46b3-b3e1-375969a64b4a",
-        "courtyards_overlap|157262001|67414001|9ff0fd2f-be08-46b3-b3e1-375969a64b4a|829d55d4-5626-4aa1-8ec2-a1ca5c693ca8",
-        "lib_footprint_mismatch|136152000|86805428|122faa04-d60c-465f-b3e0-7d3f0e1fc97f|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|156472000|86934000|829d55d4-5626-4aa1-8ec2-a1ca5c693ca8|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -77,8 +70,8 @@
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
-        "duplicate_footprints": "warning",
-        "extra_footprint": "warning",
+        "duplicate_footprints": "ignore",
+        "extra_footprint": "ignore",
         "footprint": "error",
         "footprint_type_mismatch": "error",
         "hole_clearance": "error",
@@ -88,8 +81,8 @@
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
-        "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_issues": "ignore",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
@@ -473,6 +466,10 @@
       {
         "netclass": "Power",
         "pattern": "GND"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "VIN"
       }
     ]
   },
