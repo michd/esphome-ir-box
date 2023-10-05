@@ -56,7 +56,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "solder_mask_bridge|144200000|81400000|8f5b2225-3876-45a3-a092-b6930c6d374e|fc8891f6-9c58-44f4-9694-626695b54277",
+        "solder_mask_bridge|144950000|83300000|68e076f1-c5b2-468e-a6bd-2d93f396059a|75b0c1fd-fb57-416d-9076-2d068f0d40b8",
+        "solder_mask_bridge|149860000|81412000|e9c64e4c-f35d-472f-adc2-ea645c6fb24c|3ae89fed-7e15-4eca-b09e-f00f29205c25",
+        "solder_mask_bridge|150610000|83312000|ae6c06f9-9cce-4448-b414-b45f9f42824b|fec422ac-2c16-405a-b007-23ffa5fa494d"
+      ],
       "meta": {
         "version": 2
       },
